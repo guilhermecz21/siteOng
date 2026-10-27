@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sete Vidas - ONG de Gatos</title>
+  <link rel="icon" href="imagens/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#inicio" class="marca">
+      <img src="imagens/logo.svg" alt="Logo da ONG Sete Vidas" width="40" height="40">
+      <span>Sete Vidas</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#projetos">Nossos Projetos</a></li>
+        <li><a href="#doar">Como Doar</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="inicio">
+      <h1>Todo gato merece mais uma vida.</h1>
+      <p>A Sete Vidas resgata, cuida e encontra um lar para gatos abandonados.</p>
+      <a href="#doar" class="botao">Quero ajudar</a>
+    </section>
+
+    <section id="sobre" class="secao">
+      <h2>Sobre Nós</h2>
+
+      <article class="causa">
+        <h3>Nossa causa</h3>
+        <p>Milhares de gatos vivem abandonados nas ruas, expostos à fome, a doenças e a maus-tratos. Desde 2018 a Sete Vidas resgata esses animais, faz a castração e a vacinação e procura famílias responsáveis para adotá-los.</p>
+        <p>Já são mais de 1.200 gatos adotados e 2.800 castrações realizadas.</p>
+      </article>
+
+      <h3>Nossa equipe</h3>
+      <div class="equipe">
+        <figure>
+          <img src="imagens/equipe/cezarino.svg" alt="Foto de Guilherme Cezarino">
+          <figcaption><strong>Guilherme Cezarino</strong> Fundador</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/equipe/carlos.svg" alt="Foto de Carlos Lima">
+          <figcaption><strong>Carlos Lima</strong> Veterinário</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/equipe/julia.svg" alt="Foto de Júlia Martins">
+          <figcaption><strong>Júlia Martins</strong> Adoções</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/equipe/rafael.svg" alt="Foto de Rafael Costa">
+          <figcaption><strong>Rafael Costa</strong> Voluntários</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="projetos" class="secao secao-alt">
+      <h2>Nossos Projetos</h2>
+      <div class="galeria">
+        <figure>
+          <img src="imagens/galeria/resgate.jpg" alt="Gato tigrado resgatado olhando para o céu">
+          <figcaption>Resgate de gatos de rua</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/galeria/castracao.jpg" alt="Gata castrada com coleira de identificação">
+          <figcaption>Mutirão de castração</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/galeria/vacinacao.jpg" alt="Filhote de gato tigrado">
+          <figcaption>Vacinação de filhotes</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/galeria/feira-adocao.jpg" alt="Gato feliz com bandana amarela">
+          <figcaption>Feira de adoção</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/galeria/lar-temporario.jpg" alt="Gato deitado no sofá de um lar temporário">
+          <figcaption>Lar temporário</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/galeria/gatil.jpg" alt="Gato preto e branco no gatil da ONG">
+          <figcaption>Nosso gatil</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="doar" class="secao">
+      <h2>Como Doar</h2>
+      <ol class="passos">
+        <li>
+          <h3>PIX</h3>
+          <p>Use a chave <strong>doe@setevidas.org</strong> e doe qualquer valor.</p>
+        </li>
+        <li>
+          <h3>Ração e areia</h3>
+          <p>Entregue na nossa sede de segunda a sábado, das 9h às 17h.</p>
+        </li>
+        <li>
+          <h3>Apadrinhamento</h3>
+          <p>Com R$ 30 por mês você garante a comida de um gato.</p>
+        </li>
+        <li>
+          <h3>Voluntariado</h3>
+          <p>Ajude nas feiras de adoção. Mande uma mensagem pelo contato.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contato" class="secao secao-alt">
+      <h2>Contato</h2>
+      <div class="contato">
+        <address>
+          <p><strong>Endereço:</strong> Rua dos cezarino, 77 - Sousa, PB</p>
+          <p><strong>Telefone:</strong> (83) 90000-0007</p>
+          <p><strong>E-mail:</strong> contato@setevidas.org</p>
+        </address>
+        <form>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          <button type="submit" class="botao">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 Sete Vidas - ONG de proteção felina</p>
+  </footer>
+
+</body>
+</html>

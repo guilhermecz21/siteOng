@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo Sete Vidas">
+  <!-- Cabeça de gato -->
+  <path d="M18 54 L25 12 L50 33 Q60 30 70 33 L95 12 L102 54 Q106 98 60 106 Q14 98 18 54 Z" fill="#1F5E5B"/>
+  <!-- Orelhas internas -->
+  <path d="M29 24 L33 42 L44 34 Z" fill="#F2B84B" opacity=".55"/>
+  <path d="M91 24 L87 42 L76 34 Z" fill="#F2B84B" opacity=".55"/>
+  <!-- Olhos -->
+  <ellipse cx="43" cy="62" rx="9" ry="11" fill="#F2B84B"/>
+  <ellipse cx="77" cy="62" rx="9" ry="11" fill="#F2B84B"/>
+  <ellipse cx="43" cy="63" rx="2.4" ry="8" fill="#10302E"/>
+  <ellipse cx="77" cy="63" rx="2.4" ry="8" fill="#10302E"/>
+  <!-- Nariz em coração -->
+  <path d="M60 89 C50 82 52 75 56 75 C58 75 59.5 76.5 60 78 C60.5 76.5 62 75 64 75 C68 75 70 82 60 89 Z" fill="#E86F7A"/>
+  <!-- Bigodes -->
+  <g stroke="#F6F3EC" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M40 82 L22 79"/><path d="M40 87 L23 90"/>
+    <path d="M80 82 L98 79"/><path d="M80 87 L97 90"/>
+  </g>
+</svg>

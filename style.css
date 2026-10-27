@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+body {
+  background: #F6F3EC;
+  color: #1A2B2A;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h2 {
+  color: #1F5E5B;
+  font-size: 32px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+.botao {
+  display: inline-block;
+  background: #1F5E5B;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: #E86F7A;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1F5E5B;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.marca img {
+  background: #F2B84B;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.navbar ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul a:hover {
+  color: #F2B84B;
+}
+
+.inicio {
+  background: #F2B84B;
+  text-align: center;
+  padding: 160px 16px 60px;
+}
+
+.inicio h1 {
+  color: #1F5E5B;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.inicio p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.secao {
+  padding: 50px 16px;
+}
+
+.secao-alt {
+  background: #E4EEEA;
+}
+
+.secao > h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.causa {
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.causa p {
+  margin-bottom: 12px;
+}
+
+.equipe,
+.galeria,
+.passos,
+.contato {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.equipe {
+  grid-template-columns: 1fr 1fr;
+}
+
+.equipe figure {
+  text-align: center;
+}
+
+.equipe img {
+  width: 140px;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+}
+
+.equipe strong {
+  display: block;
+}
+
+.galeria figure {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.galeria figcaption {
+  padding: 12px 16px;
+  font-weight: bold;
+}
+
+.passos {
+  list-style: none;
+}
+
+.passos li {
+  background: #fff;
+  border-top: 5px solid #F2B84B;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+address {
+  font-style: normal;
+}
+
+address p {
+  margin-bottom: 8px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #b9c7c3;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.rodape {
+  background: #1F5E5B;
+  color: #fff;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+@media (min-width: 600px) {
+  .inicio h1 {
+    font-size: 42px;
+  }
+
+  .galeria,
+  .passos,
+  .contato {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 48px;
+  }
+
+  .navbar ul {
+    margin-top: 0;
+  }
+
+  .inicio {
+    padding: 200px 32px 100px;
+  }
+
+  .inicio h1 {
+    font-size: 52px;
+  }
+
+  .secao {
+    padding: 80px 32px;
+  }
+
+  .equipe,
+  .passos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .galeria {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
